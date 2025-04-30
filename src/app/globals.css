@@ -25,3 +25,12 @@ a:hover {
 #vehicles:hover {
     color: red;
 }
+
+.vehicle-card {
+    transition: all 1.5s ease-in-out;
+}
+
+.vehicle-card:hover {
+    transform: scale(1.05);
+    z-index: 2;
+}
